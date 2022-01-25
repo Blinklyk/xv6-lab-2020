@@ -6,7 +6,7 @@ int
 main(int argc, char *argv[])
 {
   if (argc != 2) {
-    fprintf(2, "sleep failed123\n");
+    fprintf(2, "sleep failed!123\n");
     exit(1);
   } else {
     int duration = atoi(argv[1]);
